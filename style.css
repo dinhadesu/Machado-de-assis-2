@@ -1,4 +1,4 @@
-/* Estilo de fundo antigo e camponês */
+
 body {
     background-color: #f5f5dc;
     background-image: url('https://www.transparenttextures.com/patterns/old-paper.png');
@@ -9,7 +9,7 @@ body {
     margin: 0;
 }
 
-/* Container principal */
+
 header, main, footer {
     max-width: 800px;
     margin: 20px auto;
@@ -19,7 +19,7 @@ header, main, footer {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
-/* Títulos */
+
 h1, h2 {
     color: #5a3a1a;
     border-bottom: 1px solid #8b6b3d;
@@ -76,20 +76,20 @@ footer {
     border-top: 1px solid #8b6b3d;
 }
 
-/* Efeitos de texto antigo */
+
 p {
     text-align: justify;
     margin-bottom: 20px;
 }
 
-/* Estilo específico para páginas individuais */
+
 .voltar-link {
     text-align: center;
     margin-top: 30px;
     font-size: 1.1em;
 }
 
-/* Limpar floats */
+
 .clearfix::after {
     content: "";
     clear: both;
